@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Titles */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 span {
+    color: gold;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    border-bottom: 2px solid gold;
+    display: inline-block;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Blockquote */
+blockquote {
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-left: 4px solid gold;
+    margin: 10px 0;
+}
+
+/* Strong Text */
+strong {
+    color: gold;
+}
+
+/* Links */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+    margin-top: 20px;
+    text-align: center;
+}
